@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Comment Filter</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🔍 YouTube Comment Filter</h2>
+        
+        <input type="text" id="keyword" placeholder="Enter keyword..." />
+        <button id="filterBtn">Filter Comments</button>
+
+        <!-- Display Matched Comments -->
+        <div id="results">No results found.</div>
+
+        <!-- Navigation Buttons -->
+        <div class="nav-buttons">
+            <button id="prevBtn">⬆️ Prev</button>
+            <button id="nextBtn">⬇️ Next</button>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
+
